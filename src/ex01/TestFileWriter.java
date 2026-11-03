@@ -28,7 +28,7 @@ public class TestFileWriter {
 		FileWriter fw= new FileWriter(filename);
 		
 		for(int i=0; i<names.length; i++) {
-			fw.write(i+"."+names[i]+"\n");
+			fw.write((i+1)+"."+names[i]+"\n");
 		}
 		fw.close();
 		System.out.println(filename+"이 저장되었습니다");
